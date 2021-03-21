@@ -3,7 +3,7 @@ package calcs_test
 import (
 	"testing"
 
-	"github.com/edwintrumpet/experiment_golang_ci_server/calcs"
+	"github.com/edwintrumpet/experiment_golang_ci_server/src/functions/calcs"
 )
 
 var sumTest = []struct {
