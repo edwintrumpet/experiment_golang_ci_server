@@ -12,12 +12,13 @@ Experiment to do continuous integration and continuous deployment with Go using 
 
 ## Scripts
 
-- **`./run.sh`** => Execute app
+- **`./run.sh`** => Execute API
 - **`./run.sh test`** => Run tests
 
 ## Develop and execution
 
-To run this app you must to have Go installed and use the indicate script to execute app
+To run this app you must to have Go installed and use the indicate script to execute API
+API will be listening in http://localhost:8080
 
 ## Author
 

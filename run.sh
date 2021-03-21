@@ -1,7 +1,13 @@
 #!/bin/bash
 
+sufix=""
+
+if [[ $OSTYPE == "msys" ]]; then
+  sufix=".exe"
+fi
+
 function main() {
-  go run \.
+  CompileDaemon -exclude-dir=.git -exclude=".#*" -directory=./src -build="go build -o ../bin/server${sufix}" -command="./bin/server${sufix}" --color=true
 }
 
 function runTest() {
