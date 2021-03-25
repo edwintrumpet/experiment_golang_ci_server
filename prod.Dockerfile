@@ -25,6 +25,6 @@ WORKDIR /usr/src/app
 
 COPY --from=builder ["/usr/src/app/bin/server", "/usr/src/app/"]
 
-EXPOSE 8080
+EXPOSE 80
 
 CMD ["./server"]
